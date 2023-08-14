@@ -60,8 +60,9 @@ input:focus{
      margin: auto;
      background-color: rgba(0, 0, 0, 0.4);
      backdrop-filter: blur(2px);
-     min-height: 90vh;
+     min-height: 80vh;
      border-radius: 20px;
      padding: 3rem;
+     box-shadow: 0 0 6px #f0f0f04b;
 }
 

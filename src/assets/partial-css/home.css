@@ -34,7 +34,6 @@ form{
 
 .notice{
      width: 300px;
-     border: 1px solid rgba(245, 245, 245, 0.562);
      padding: 1rem 1.75rem;
      padding-left: 1.25rem;
      border-radius: 8px;
@@ -44,6 +43,8 @@ form{
      font-weight: 300;
      font-size: 14px;
      color: #f0f0f0;
+     background-color: rgba(77, 76, 80, 0.753);
+     text-align: justify;
 }
 
 
