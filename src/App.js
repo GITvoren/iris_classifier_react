@@ -1,9 +1,14 @@
-
+import Home from './pages/Home.js';
 
 function App() {
+
+
+
   return (
     <div className="App">
-        
+      <div className="container">
+         <Home />
+      </div>
     </div>
   );
 }

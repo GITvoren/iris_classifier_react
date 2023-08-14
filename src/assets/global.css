@@ -4,3 +4,29 @@
      box-sizing: border-box;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+     -moz-appearance: textfield;
+   }
+
+
+body{
+     background-image: url('/src/assets/images/purple.jpg');
+     background-position: center;
+     background-attachment: fixed;
+     background-size: cover;
+}
+
+.container{
+     max-width: 1200px;
+     margin: auto;
+     background-color: rgba(0, 0, 0, 0.4);
+     backdrop-filter: blur(2px);
+     min-height: 90vh;
+     border-radius: 20px;
+}
