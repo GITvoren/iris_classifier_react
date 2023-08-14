@@ -7,7 +7,7 @@ function About(){
           <div className="about">
                <div className="about-main">
                      <div className="about-title">
-                         <img src="/images/iris2.png" alt="" /> <span>Flower Classification</span>
+                         <img src="/images/iris2.png" /> <span>Flower Classification</span>
                     </div>  
                     <br /><br />
                     <p>The iris flower classification is a machine learning project that uses supervised learning to classify iris flowers into three species: Setosa, Versicolor, and Virginica.</p><br />
