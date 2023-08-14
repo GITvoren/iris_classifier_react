@@ -1,3 +1,36 @@
 .about{
-     
+    
+
 }
+
+.about-main{
+     max-width: 800px;
+     margin: 1rem auto;
+
+}
+
+.about-main>p{
+     text-align: justify;
+     font-weight: 300;
+}
+
+.about-title{
+     display: flex;
+     align-items: center;
+     transform: translateX(-1rem);
+     justify-content: center;
+}
+
+
+.about-title>img{
+
+}
+
+.about-title>span{
+     font-weight: 300;
+     font-size: 20px;
+     transform: translate(-1rem, 0.45rem);
+}
+
+
+

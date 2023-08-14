@@ -60,7 +60,7 @@ function Home(){
      return(
           <div className="home">
                <h1>Iris Flower Classifier</h1><br />
-               <div className="info">Input the necessary details to predict what species is your Iris Flower.                     
+               <div className="info">Input the necessary details to classify the species of your Iris Flower.                     
                     { showNotice && <div className="notice">
                          <p>Hello, please wait for the API status to become "Ready" before trying to use classify to avoid fetch errors. (approx. 20s - 35s after opening site)
                          </p>
