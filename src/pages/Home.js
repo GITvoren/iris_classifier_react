@@ -23,6 +23,7 @@ function Home(){
           .then(data => {
                setApiStatus("Ready");
           })
+          .catch(() => setApiStatus("Failed. Fetch Error."))
      }, [])
 
         const handleSubmit = async (e) => {
@@ -59,13 +60,15 @@ function Home(){
      return(
           <div className="home">
                <h1>Iris Flower Classifier</h1><br />
-               <p>Input the necessary details to predict what species is your Iris Flower.                     
+               <div className="info">Input the necessary details to predict what species is your Iris Flower.                     
                     { showNotice && <div className="notice">
                          <p>Hello, please wait for the API status to become "Ready" before trying to use classify to avoid fetch errors. (approx. 20s - 35s after opening site)
                          </p>
-                         <p className="close-btn" onClick={() => setShowNotice(false)}>x</p>
+                         <div>
+                               <p className="close-btn" onClick={() => setShowNotice(false)}>x</p>
+                         </div>
                     </div>}
-               </p>
+               </div>
                <h5>API Status: <span className={apiStatus == "Ready" ? 'ready' : ""}> &ensp;{apiStatus}</span></h5>
                {
                     isLoading?
@@ -75,7 +78,7 @@ function Home(){
                     <div></div>
                     {
                     show &&
-                    <h6>Your Iris Flower is a <span>{specie}</span> !!!</h6> 
+                    <h6 className="result">Your Iris Flower is a <span>{specie}</span> !!!</h6> 
                     }
                     </>
                }
