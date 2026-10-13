@@ -14,7 +14,7 @@ function Home(){
      const [specie, setSpecie] = useState("");
      const [isLoading, setIsLoading] = useState(false);
      const [show, setShow] = useState(false);
-     const [showNotice, setShowNotice] = useState(true);
+     const [showNotice, setShowNotice] = useState(false);
      const [apiStatus, setApiStatus] = useState("Not Ready");
 
      useEffect(() => {
