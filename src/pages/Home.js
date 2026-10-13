@@ -89,6 +89,7 @@ function Home(){
                          <input 
                          type="number"
                          required
+                         placeholder="e.g. 5.1"
                          value={sepalLength}
                          onChange={e => setSepalLength(e.target.value)}
                          />
@@ -98,6 +99,7 @@ function Home(){
                          <input 
                          type="number"
                          required 
+                         placeholder="e.g. 3.5"
                          value={sepalWidth}
                          onChange={e => setSepalWidth(e.target.value)}
                          />
@@ -107,6 +109,7 @@ function Home(){
                          <input 
                          type="number"
                          required 
+                         placeholder="e.g. 1.4"
                          value={petalLength}
                          onChange={e => setPetalLength(e.target.value)}
                          />
@@ -116,6 +119,7 @@ function Home(){
                          <input 
                          type="number" 
                          required 
+                         placeholder="e.g. 0.2"
                          value={petalWidth}
                          onChange={e => setPetalWidth(e.target.value)}
                          />
