@@ -119,7 +119,7 @@ function Home(){
                          <input 
                          type="number" 
                          required 
-                         placeholder="e.g. 0.2"
+                         placeholder="e.g. 1.2"
                          value={petalWidth}
                          onChange={e => setPetalWidth(e.target.value)}
                          />
