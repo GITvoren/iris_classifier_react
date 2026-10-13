@@ -32,6 +32,16 @@ form{
      margin-top: 3rem;
 }
 
+form input{
+     padding-left: 4px;
+}
+
+form input::placeholder{
+  font-size: 12px; /* Adjust this value as needed */
+  color: #9ca3af;   /* Optional: make it a lighter gray */
+}
+
+
 .notice{
      width: 300px;
      padding: 1rem 1.75rem;
